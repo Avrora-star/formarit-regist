@@ -1,0 +1,31 @@
+body {
+    background-image:url(img/logo.png);
+    background-repeat:no-repeat;
+    background-position:top right;
+    background-size:25%;
+    padding:3%;
+}
+
+h1 {
+    width: 50%;
+    margin:auto;
+    text-shadow:1px 1px 4px grey;
+    text-align:center;
+}
+
+hr {
+    width: 50%;
+    height: 4px;
+    background-color: #50327e;
+    border-radius: 5px;
+    margin-top:25px;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+    font-size:20px;
+    margin:23px auto auto;
+    padding:13px;
+    line-height:30px;
+}
