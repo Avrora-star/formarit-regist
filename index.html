@@ -1,18 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>REGISTER</title>
 </head>
+
 <body>
     <h1>Школа программирования "CS_GO"</h1>
     <hr>
-    <p>Здравствуйте! Мы очень рады, что <i>Вы</i> решили присоединится к нам! <br> Пожалуйста, заполнить форму регистрации ниже</b></p>
+    <p>Здравствуйте! Мы очень рады, что <i>Вы</i> решили присоединится к нам! <br> Пожалуйста, заполнить форму
+        регистрации ниже</b></p>
     <form action="#">
-        <div class="action"></div>
+        <div class="action">
+            <a class="sign-in" href="login.html">Войти</a>
+            <a class="sign-up active" href="#">Регистрация</a>
+        </div>
+        <div class="fields">
+            <p>Придумайте логин</p>
+            <input type="text" placeholder="Придумайте логин">
+
+            <p>Придумайте пароль</p>
+            <input type="password" placeholder="Придумайте пароль">
+
+            <p>Выберите пол</p>
+            <div class="wrapper">
+                <input type="radio" name="pol">
+                <p>Мужской</p>
+                <input type="radio" name="pol">
+                <p>Женский</p>
+            </div>
+
+            <p>Выберите желаемые курсы</p>
+            <div class="wrapper">
+                <input type="checkbox">
+                <p>Frontend</p>
+                <input type="checkbox">
+                <p>Roblox</p>
+                <input type="checkbox">
+                <p>Figma</p>
+                <input type="checkbox">
+                <p>Scratch</p>
+                <input type="checkbox">
+                <p>Python</p>
+                <input type="checkbox">
+                <p>Unity</p>
+            </div>
+        </div>  
     </form>
 
 </body>
+
 </html>

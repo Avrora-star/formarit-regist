@@ -4,6 +4,7 @@ body {
     background-position:top right;
     background-size:25%;
     padding:3%;
+    box-sizing:border-box;
 }
 
 h1 {
@@ -28,4 +29,58 @@ p {
     margin:23px auto auto;
     padding:13px;
     line-height:30px;
+}
+
+form {
+    width:50%;
+    background-color: #50327e;
+    text-align: center;
+    margin: 30px auto auto;
+    padding: 30px;
+    border-radius: 13px;
+    opacity:0.65;
+}
+
+.sign-in, .sign-up {
+    color:black;
+    text-decoration:none;
+    padding:1%;
+}
+
+.active {
+    color:white;
+    border-bottom:2px solid orange;
+}
+
+.sign-in:hover, .sign-up:hover {
+    color:#e1e;
+}
+
+.fields p {
+    color:#bbb;
+    font-size:15px;
+
+}
+
+.fields input {
+    width: 90%;
+    padding: 10px 5px;
+    border-radius: 15px;
+    background-color: #60428e;
+    border:none;
+    text-align: center;
+    color:white;
+    opacity: 0.9;
+}
+
+.wrapper {
+    text-align:center;   
+}
+
+.wrapper p {
+    display: inline;
+}
+
+.wrapper input {
+    width: auto;
 }
