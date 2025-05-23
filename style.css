@@ -4,6 +4,7 @@ body {
     background-position:top right;
     background-size:25%;
     padding:3%;
+    box-sizing:border-box;
 }
 
 h1 {
@@ -28,4 +29,14 @@ p {
     margin:23px auto auto;
     padding:13px;
     line-height:30px;
+}
+
+form {
+    width:50%;
+    background-color: #50327e;
+    text-align: center;
+    margin: 30px auto auto;
+    padding: 30px;
+    border-radius: 13px;
+    opacity:0.65;
 }
