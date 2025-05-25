@@ -39,6 +39,7 @@ form {
     padding: 30px;
     border-radius: 13px;
     opacity:0.65;
+<<<<<<< HEAD
 }
 
 .sign-in, .sign-up {
@@ -84,3 +85,6 @@ form {
 .wrapper input {
     width: auto;
 }
+=======
+}
+>>>>>>> 7d0d04dd99f9e316a2359809bae5fea203afbc1c
