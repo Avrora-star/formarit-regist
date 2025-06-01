@@ -127,3 +127,13 @@ form hr {
     height: 0;
     filter: blur(2px);
 }
+
+.clash {
+    color:white;
+    text-decoration: none;
+}
+
+.left-div {
+    text-align: left;
+    margin-left: 5%;
+}
